@@ -1,0 +1,471 @@
+2018-12-08 21:37:24,861 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.5.18.RELEASE/spring-boot-starter-parent-1.5.18.RELEASE.pom
+2018-12-08 21:37:30,210 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.5.18.RELEASE/spring-boot-starter-parent-1.5.18.RELEASE.pom
+2018-12-08 21:37:30,631 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.18.RELEASE/spring-boot-dependencies-1.5.18.RELEASE.pom
+2018-12-08 21:37:36,351 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.18.RELEASE/spring-boot-dependencies-1.5.18.RELEASE.pom
+2018-12-08 21:37:37,019 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.11.20181123/jackson-bom-2.8.11.20181123.pom
+2018-12-08 21:37:38,675 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.11.20181123/jackson-bom-2.8.11.20181123.pom
+2018-12-08 21:37:39,437 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.21.RELEASE/spring-framework-bom-4.3.21.RELEASE.pom
+2018-12-08 21:37:40,455 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.21.RELEASE/spring-framework-bom-4.3.21.RELEASE.pom
+2018-12-08 21:37:40,931 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Ingalls-SR17/spring-data-releasetrain-Ingalls-SR17.pom
+2018-12-08 21:37:41,855 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Ingalls-SR17/spring-data-releasetrain-Ingalls-SR17.pom
+2018-12-08 21:37:42,316 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.9.17.RELEASE/spring-data-build-1.9.17.RELEASE.pom
+2018-12-08 21:37:43,435 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.9.17.RELEASE/spring-data-build-1.9.17.RELEASE.pom
+2018-12-08 21:37:43,917 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.18.RELEASE/spring-integration-bom-4.3.18.RELEASE.pom
+2018-12-08 21:37:45,040 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.18.RELEASE/spring-integration-bom-4.3.18.RELEASE.pom
+2018-12-08 21:37:45,487 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/4.2.10.RELEASE/spring-security-bom-4.2.10.RELEASE.pom
+2018-12-08 21:37:46,401 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/4.2.10.RELEASE/spring-security-bom-4.2.10.RELEASE.pom
+2018-12-08 21:37:47,664 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.18.RELEASE/spring-boot-maven-plugin-1.5.18.RELEASE.pom
+2018-12-08 21:37:48,771 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.18.RELEASE/spring-boot-maven-plugin-1.5.18.RELEASE.pom
+2018-12-08 21:37:49,216 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.5.18.RELEASE/spring-boot-tools-1.5.18.RELEASE.pom
+2018-12-08 21:37:51,427 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.5.18.RELEASE/spring-boot-tools-1.5.18.RELEASE.pom
+2018-12-08 21:37:51,832 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.5.18.RELEASE/spring-boot-parent-1.5.18.RELEASE.pom
+2018-12-08 21:37:54,144 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.5.18.RELEASE/spring-boot-parent-1.5.18.RELEASE.pom
+2018-12-08 21:37:54,678 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.18.RELEASE/spring-boot-maven-plugin-1.5.18.RELEASE.jar
+2018-12-08 21:38:00,790 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.18.RELEASE/spring-boot-maven-plugin-1.5.18.RELEASE.jar
+2018-12-08 21:38:01,170 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2018-12-08 21:38:02,962 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dicka:spring-boot-angularjs:0.0.1-SNAPSHOT @ /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/pom.xml.
+2018-12-08 21:38:05,355 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.5.18.RELEASE/spring-boot-starter-actuator-1.5.18.RELEASE.pom
+2018-12-08 21:38:06,299 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.5.18.RELEASE/spring-boot-starter-actuator-1.5.18.RELEASE.pom
+2018-12-08 21:38:07,754 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/1.5.18.RELEASE/spring-boot-starters-1.5.18.RELEASE.pom
+2018-12-08 21:38:10,144 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/1.5.18.RELEASE/spring-boot-starters-1.5.18.RELEASE.pom
+2018-12-08 21:38:10,764 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.5.18.RELEASE/spring-boot-starter-1.5.18.RELEASE.pom
+2018-12-08 21:38:13,201 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.5.18.RELEASE/spring-boot-starter-1.5.18.RELEASE.pom
+2018-12-08 21:38:13,672 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.5.18.RELEASE/spring-boot-1.5.18.RELEASE.pom
+2018-12-08 21:38:17,915 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.5.18.RELEASE/spring-boot-1.5.18.RELEASE.pom
+2018-12-08 21:38:18,384 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.21.RELEASE/spring-core-4.3.21.RELEASE.pom
+2018-12-08 21:38:19,313 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.21.RELEASE/spring-core-4.3.21.RELEASE.pom
+2018-12-08 21:38:19,789 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.pom
+2018-12-08 21:38:22,982 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.pom
+2018-12-08 21:38:23,470 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.21.RELEASE/spring-aop-4.3.21.RELEASE.pom
+2018-12-08 21:38:26,433 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.21.RELEASE/spring-aop-4.3.21.RELEASE.pom
+2018-12-08 21:38:26,896 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.21.RELEASE/spring-beans-4.3.21.RELEASE.pom
+2018-12-08 21:38:27,822 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.21.RELEASE/spring-beans-4.3.21.RELEASE.pom
+2018-12-08 21:38:28,279 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.21.RELEASE/spring-expression-4.3.21.RELEASE.pom
+2018-12-08 21:38:34,925 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.21.RELEASE/spring-expression-4.3.21.RELEASE.pom
+2018-12-08 21:38:35,371 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.5.18.RELEASE/spring-boot-autoconfigure-1.5.18.RELEASE.pom
+2018-12-08 21:38:44,640 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.5.18.RELEASE/spring-boot-autoconfigure-1.5.18.RELEASE.pom
+2018-12-08 21:38:45,035 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.5.18.RELEASE/spring-boot-starter-logging-1.5.18.RELEASE.pom
+2018-12-08 21:38:49,879 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.5.18.RELEASE/spring-boot-starter-logging-1.5.18.RELEASE.pom
+2018-12-08 21:38:50,591 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.5.18.RELEASE/spring-boot-actuator-1.5.18.RELEASE.pom
+2018-12-08 21:38:54,071 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.5.18.RELEASE/spring-boot-actuator-1.5.18.RELEASE.pom
+2018-12-08 21:38:54,797 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.3/jackson-databind-2.8.11.3.pom
+2018-12-08 21:38:56,221 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.3/jackson-databind-2.8.11.3.pom
+2018-12-08 21:38:56,740 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.5.18.RELEASE/spring-boot-starter-web-1.5.18.RELEASE.pom
+2018-12-08 21:38:57,800 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.5.18.RELEASE/spring-boot-starter-web-1.5.18.RELEASE.pom
+2018-12-08 21:38:58,319 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.5.18.RELEASE/spring-boot-starter-tomcat-1.5.18.RELEASE.pom
+2018-12-08 21:38:59,223 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.5.18.RELEASE/spring-boot-starter-tomcat-1.5.18.RELEASE.pom
+2018-12-08 21:39:00,578 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.pom
+2018-12-08 21:39:01,923 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.pom
+2018-12-08 21:39:02,572 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.21.RELEASE/spring-webmvc-4.3.21.RELEASE.pom
+2018-12-08 21:39:04,294 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.21.RELEASE/spring-webmvc-4.3.21.RELEASE.pom
+2018-12-08 21:39:04,765 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/1.5.18.RELEASE/spring-boot-devtools-1.5.18.RELEASE.pom
+2018-12-08 21:39:06,068 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/1.5.18.RELEASE/spring-boot-devtools-1.5.18.RELEASE.pom
+2018-12-08 21:39:06,677 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.5.18.RELEASE/spring-boot-starter-test-1.5.18.RELEASE.pom
+2018-12-08 21:39:10,630 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.5.18.RELEASE/spring-boot-starter-test-1.5.18.RELEASE.pom
+2018-12-08 21:39:11,100 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.5.18.RELEASE/spring-boot-test-1.5.18.RELEASE.pom
+2018-12-08 21:39:12,503 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.5.18.RELEASE/spring-boot-test-1.5.18.RELEASE.pom
+2018-12-08 21:39:13,190 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.5.18.RELEASE/spring-boot-test-autoconfigure-1.5.18.RELEASE.pom
+2018-12-08 21:39:14,679 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.5.18.RELEASE/spring-boot-test-autoconfigure-1.5.18.RELEASE.pom
+2018-12-08 21:39:15,278 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.21.RELEASE/spring-test-4.3.21.RELEASE.pom
+2018-12-08 21:39:16,690 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.21.RELEASE/spring-test-4.3.21.RELEASE.pom
+2018-12-08 21:39:17,214 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.5.18.RELEASE/spring-boot-starter-actuator-1.5.18.RELEASE.jar
+2018-12-08 21:39:18,043 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.5.18.RELEASE/spring-boot-starter-actuator-1.5.18.RELEASE.jar
+2018-12-08 21:39:19,324 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.5.18.RELEASE/spring-boot-starter-1.5.18.RELEASE.jar
+2018-12-08 21:39:20,227 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.5.18.RELEASE/spring-boot-starter-1.5.18.RELEASE.jar
+2018-12-08 21:39:20,614 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.5.18.RELEASE/spring-boot-starter-logging-1.5.18.RELEASE.jar
+2018-12-08 21:39:21,497 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.5.18.RELEASE/spring-boot-starter-logging-1.5.18.RELEASE.jar
+2018-12-08 21:39:21,954 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.5.18.RELEASE/spring-boot-actuator-1.5.18.RELEASE.jar
+2018-12-08 21:39:49,178 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.5.18.RELEASE/spring-boot-actuator-1.5.18.RELEASE.jar
+2018-12-08 21:39:49,590 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar
+2018-12-08 21:42:15,304 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar
+2018-12-08 21:43:28,829 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.5.18.RELEASE/spring-boot-starter-web-1.5.18.RELEASE.jar
+2018-12-08 21:44:05,570 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.5.18.RELEASE/spring-boot-starter-web-1.5.18.RELEASE.jar
+2018-12-08 21:44:06,941 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.5.18.RELEASE/spring-boot-starter-tomcat-1.5.18.RELEASE.jar
+2018-12-08 21:44:51,050 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.5.18.RELEASE/spring-boot-starter-tomcat-1.5.18.RELEASE.jar
+2018-12-08 21:45:15,489 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.35/tomcat-annotations-api-8.5.35.jar
+2018-12-08 21:45:27,218 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.35/tomcat-annotations-api-8.5.35.jar
+2018-12-08 21:45:27,597 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.3/jackson-databind-2.8.11.3.jar
+2018-12-08 21:46:21,649 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.3/jackson-databind-2.8.11.3.jar
+2018-12-08 21:46:22,024 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.jar
+2018-12-08 21:46:41,094 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.21.RELEASE/spring-web-4.3.21.RELEASE.jar
+2018-12-08 21:46:41,586 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.21.RELEASE/spring-aop-4.3.21.RELEASE.jar
+2018-12-08 21:46:48,295 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.21.RELEASE/spring-aop-4.3.21.RELEASE.jar
+2018-12-08 21:46:48,675 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.21.RELEASE/spring-beans-4.3.21.RELEASE.jar
+2018-12-08 21:47:23,432 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.21.RELEASE/spring-beans-4.3.21.RELEASE.jar
+2018-12-08 21:47:23,880 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.21.RELEASE/spring-webmvc-4.3.21.RELEASE.jar
+2018-12-08 21:48:31,256 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.21.RELEASE/spring-webmvc-4.3.21.RELEASE.jar
+2018-12-08 21:48:31,703 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.21.RELEASE/spring-expression-4.3.21.RELEASE.jar
+2018-12-08 21:48:37,666 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.21.RELEASE/spring-expression-4.3.21.RELEASE.jar
+2018-12-08 21:48:44,533 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/1.5.18.RELEASE/spring-boot-devtools-1.5.18.RELEASE.jar
+2018-12-08 21:49:18,245 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/1.5.18.RELEASE/spring-boot-devtools-1.5.18.RELEASE.jar
+2018-12-08 21:49:18,668 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.5.18.RELEASE/spring-boot-1.5.18.RELEASE.jar
+2018-12-08 21:49:37,010 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.5.18.RELEASE/spring-boot-1.5.18.RELEASE.jar
+2018-12-08 21:49:37,419 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.5.18.RELEASE/spring-boot-autoconfigure-1.5.18.RELEASE.jar
+2018-12-08 21:50:21,474 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.5.18.RELEASE/spring-boot-autoconfigure-1.5.18.RELEASE.jar
+2018-12-08 21:50:21,842 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.5.18.RELEASE/spring-boot-starter-test-1.5.18.RELEASE.jar
+2018-12-08 21:50:22,705 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.5.18.RELEASE/spring-boot-starter-test-1.5.18.RELEASE.jar
+2018-12-08 21:50:23,508 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.5.18.RELEASE/spring-boot-test-1.5.18.RELEASE.jar
+2018-12-08 21:50:31,730 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.5.18.RELEASE/spring-boot-test-1.5.18.RELEASE.jar
+2018-12-08 21:50:32,102 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.5.18.RELEASE/spring-boot-test-autoconfigure-1.5.18.RELEASE.jar
+2018-12-08 21:50:39,473 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.5.18.RELEASE/spring-boot-test-autoconfigure-1.5.18.RELEASE.jar
+2018-12-08 21:50:40,072 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.21.RELEASE/spring-core-4.3.21.RELEASE.jar
+2018-12-08 21:51:51,916 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.21.RELEASE/spring-core-4.3.21.RELEASE.jar
+2018-12-08 21:51:52,365 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.21.RELEASE/spring-test-4.3.21.RELEASE.jar
+2018-12-08 21:52:03,324 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.21.RELEASE/spring-test-4.3.21.RELEASE.jar
+2018-12-08 21:52:03,851 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2018-12-08 21:52:04,875 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2018-12-08 21:52:06,008 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2018-12-08 21:52:07,595 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-angularjs/src/main/java
+2018-12-08 21:52:07,595 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-angularjs/src/main/resources
+2018-12-08 21:52:07,598 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-angularjs/src/main/resources
+2018-12-08 21:52:07,600 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-angularjs/src/test/java
+2018-12-08 21:52:08,148 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dicka:spring-boot-angularjs:0.0.1-SNAPSHOT @ /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/pom.xml.
+2018-12-08 21:52:09,485 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 886 sec
+2018-12-08 21:52:11,221 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dicka:spring-boot-angularjs:0.0.1-SNAPSHOT @ /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/pom.xml.
+2018-12-08 21:52:11,696 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:52:11,702 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:52:11,725 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:52:11,728 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:52:11,729 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 21:53:09,928 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:53:09,932 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:53:09,933 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:53:09,936 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:53:09,937 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 21:53:34,624 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:53:34,625 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:53:34,626 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:53:34,637 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:53:34,637 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 21:57:04,543 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:57:04,544 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:57:04,545 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:57:04,547 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:57:04,547 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 21:57:27,850 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:57:27,861 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:57:27,862 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:57:27,864 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:57:27,865 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 21:58:12,586 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:58:12,587 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:58:12,588 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:58:12,595 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:58:12,595 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 21:58:57,528 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:58:57,529 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 21:58:57,529 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 21:58:57,531 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 21:58:57,531 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:00:17,769 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:00:17,770 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:00:17,771 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:00:17,776 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:00:17,776 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:00:44,127 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:00:44,133 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:00:44,134 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:00:44,138 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:00:44,138 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:01:06,882 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:01:06,883 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:01:06,883 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:01:06,890 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:01:06,890 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:02:26,869 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:26,870 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:02:26,870 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:02:26,872 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:26,872 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:02:33,538 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:33,539 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:02:33,539 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:02:33,542 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:33,543 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:02:50,921 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:50,921 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:02:50,921 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:02:50,925 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:50,925 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:02:53,880 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:53,881 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:02:53,881 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:02:53,885 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:02:53,885 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:03:06,350 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:03:06,350 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:03:06,351 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:03:06,354 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:03:06,354 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:03:15,223 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:03:15,226 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:03:15,226 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:03:15,230 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:03:15,230 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:03:23,453 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:03:23,453 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:03:23,454 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:03:23,457 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:03:23,457 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:05:50,961 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:05:50,961 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:05:50,962 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:05:50,964 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:05:50,964 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:06:10,824 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:06:10,825 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:06:10,825 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:06:10,828 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:06:10,829 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:06:48,406 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:06:48,406 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:06:48,406 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:06:48,409 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:06:48,409 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:07:28,362 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:07:28,363 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:07:28,363 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:07:28,366 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:07:28,366 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:07:50,909 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:07:50,910 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:07:50,910 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:07:50,913 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:07:50,913 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:07:52,784 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:07:52,785 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:07:52,785 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:07:52,788 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:07:52,788 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:09:04,101 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:09:04,102 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:09:04,102 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:09:04,105 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:09:04,105 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:09:16,546 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:09:16,547 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:09:16,548 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:09:16,550 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:09:16,551 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:09:51,842 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:09:51,843 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:09:51,843 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:09:51,847 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:09:51,847 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:11:34,021 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:11:34,022 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:11:34,023 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:11:34,026 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:11:34,026 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:11:35,859 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:11:35,860 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:11:35,862 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:11:35,866 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:11:35,866 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:14:53,838 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:14:53,838 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:14:53,839 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:14:53,840 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:14:53,841 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:15:36,514 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:15:36,515 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:15:36,515 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:15:36,519 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:15:36,519 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:17:55,923 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:17:55,923 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:17:55,924 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:17:55,926 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:17:55,926 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:17:56,993 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:17:56,994 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:17:56,994 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:17:56,999 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:17:57,000 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:18:58,529 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:18:58,530 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:18:58,530 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:18:58,533 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:18:58,533 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:19:02,332 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:19:02,333 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:19:02,334 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:19:02,338 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:19:02,338 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:19:10,174 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:19:10,175 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:19:10,175 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:19:10,178 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:19:10,178 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:19:17,337 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:19:17,337 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:19:17,337 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:19:17,340 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:19:17,340 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:21:55,420 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:21:55,420 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:21:55,420 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:21:55,422 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:21:55,422 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:22:00,588 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:22:00,589 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:22:00,589 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:22:00,591 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:22:00,591 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:23:36,826 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:23:36,826 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:23:36,827 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:23:36,829 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:23:36,830 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:23:52,848 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:23:52,849 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:23:52,849 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:23:52,852 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:23:52,852 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:24:55,984 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:24:55,984 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:24:55,985 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:24:55,987 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:24:55,987 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:25:02,749 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:25:02,749 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:25:02,749 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:25:02,751 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:25:02,751 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:25:12,153 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:25:12,153 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:25:12,154 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:25:12,160 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:25:12,160 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:28:27,503 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:28:27,503 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:28:27,504 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:28:27,505 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:28:27,506 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:29:58,307 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:29:58,308 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:29:58,308 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:29:58,312 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:29:58,312 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:30:37,660 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:30:37,661 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:30:37,661 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:30:37,666 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:30:37,666 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:31:21,409 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:31:21,410 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:31:21,410 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:31:21,414 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:31:21,414 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:31:23,775 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:31:23,775 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:31:23,775 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:31:23,777 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:31:23,777 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:32:13,119 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:32:13,120 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:32:13,132 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-08 22:32:13,143 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:32:13,144 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:32:28,559 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:32:28,560 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:32:28,560 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-08 22:32:28,562 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:32:28,562 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:35:21,347 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:35:21,348 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:35:21,350 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-08 22:35:21,352 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:35:21,353 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:35:22,795 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:35:22,796 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:35:22,797 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-08 22:35:22,810 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:35:22,810 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:36:35,061 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:36:35,062 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:36:35,062 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:36:35,065 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:36:35,065 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:37:14,953 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:37:14,954 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:37:14,954 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:37:14,957 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:37:14,957 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:39:55,041 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:39:55,042 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:39:55,042 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:39:55,044 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:39:55,044 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:43:06,476 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:43:06,477 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:43:06,477 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:43:06,479 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:43:06,479 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:43:50,441 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:43:50,441 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:43:50,441 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:43:50,443 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:43:50,443 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:44:30,908 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:44:30,908 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:44:30,908 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:44:30,910 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:44:30,911 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:44:51,306 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:44:51,306 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:44:51,306 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:44:51,309 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:44:51,309 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:49:06,625 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:49:06,625 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:49:06,626 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:49:06,628 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:49:06,629 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:49:34,314 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:49:34,314 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:49:34,314 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:49:34,318 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:49:34,318 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:50:05,511 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:50:05,512 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:50:05,512 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:50:05,513 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:50:05,514 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:50:51,777 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:50:51,778 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:50:51,778 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:50:51,780 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:50:51,780 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:54:46,195 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:54:46,196 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:54:46,196 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:54:46,199 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:54:46,199 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:55:28,672 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:55:28,672 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-08 22:55:28,673 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:55:28,676 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:55:28,676 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:57:15,472 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:57:15,473 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:57:15,474 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-08 22:57:15,478 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:57:15,479 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-08 22:57:16,965 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:57:16,965 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-08 22:57:16,966 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-08 22:57:16,968 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-08 22:57:16,969 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-10 10:48:22,393 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dicka:spring-boot-angularjs:0.0.1-SNAPSHOT @ /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/pom.xml.
+2018-12-10 10:48:42,415 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dicka:spring-boot-angularjs:0.0.1-SNAPSHOT @ /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/pom.xml.
+2018-12-10 10:48:42,499 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 10:48:42,542 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 10:48:42,579 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-10 10:48:42,792 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 10:48:42,793 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources
+2018-12-10 10:48:45,805 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 10:48:45,807 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 10:48:45,807 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 10:48:45,816 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 10:48:45,817 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dickaspring/file-java/TUTOR-SPRING/spring-boot-angularjs/src/test/resources

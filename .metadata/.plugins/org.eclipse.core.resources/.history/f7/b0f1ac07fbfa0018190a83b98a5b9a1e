@@ -1,0 +1,7 @@
+var app = angular.module('app', []);
+
+app.controller('postcontroller', function($scope, $http, $location){
+	$scope.postDivAvailable = false;
+	$scope.getDivAvailable = false;
+	
+});

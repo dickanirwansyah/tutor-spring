@@ -1,0 +1,5 @@
+package com.dicka.springbootangularjs.entity;
+
+public class Address {
+
+}

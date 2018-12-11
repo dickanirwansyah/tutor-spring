@@ -1,0 +1,18 @@
+var app = angular.module('app', []);
+
+app.controller('postcontroller', function($scope, $http, $location){
+	$scope.postDivAvailable = false;
+	$scope.getDivAvailable = false;
+	
+	$scope.formCust;
+	$scope.listCustomers = [];
+	
+	/** add customers **/
+	$scope.addCustomer = function(){
+		if($scope.formCust){
+			$scope.listCustomers.push($scope.formCust);
+			/*reset form customer **/
+			$scope.formCust = null;
+		}
+	}
+});
