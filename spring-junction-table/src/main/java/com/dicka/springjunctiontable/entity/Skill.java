@@ -23,6 +23,11 @@ public class Skill implements Serializable{
 
     public Skill(){}
 
+    public Skill(String skillId, String nama){
+        this.skillId = skillId;
+        this.nama = nama;
+    }
+
     public String getSkillId(){
         return skillId;
     }
