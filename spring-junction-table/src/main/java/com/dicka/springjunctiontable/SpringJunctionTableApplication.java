@@ -21,6 +21,7 @@ public class SpringJunctionTableApplication {
 	}
 }
 
+
 @Component
 class CommandLineRunners implements CommandLineRunner{
 

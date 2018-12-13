@@ -2,6 +2,7 @@ package com.dicka.springjunctiontable.controller;
 
 import com.dicka.springjunctiontable.entity.Person;
 import com.dicka.springjunctiontable.model.RequestPerson;
+import com.dicka.springjunctiontable.model.RequestRegex;
 import com.dicka.springjunctiontable.model.ResponseDataPerson;
 import com.dicka.springjunctiontable.model.ResponsePerson;
 import com.dicka.springjunctiontable.service.PersonService;
@@ -25,6 +26,12 @@ public class PersonController {
     @PostMapping(value = "/person-create")
     public ResponsePerson createPerson(@RequestBody RequestPerson requestPerson){
         return personService.createPerson(requestPerson);
+    }
+
+    /** create person with regex **/
+    @PostMapping(value = "/person-create-regex")
+    public ResponsePerson createPersonRegex(@RequestBody RequestRegex regex){
+        return personService.createPersonWithSplitRegexComma(regex);
     }
 
     @GetMapping(value = "/person-list")

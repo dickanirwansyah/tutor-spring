@@ -6,6 +6,7 @@ import com.dicka.springjunctiontable.entity.Skill;
 import com.dicka.springjunctiontable.exception.ResourceConflictException;
 import com.dicka.springjunctiontable.exception.ResourceNotFoundException;
 import com.dicka.springjunctiontable.model.RequestPerson;
+import com.dicka.springjunctiontable.model.RequestRegex;
 import com.dicka.springjunctiontable.model.ResponseDataPerson;
 import com.dicka.springjunctiontable.model.ResponsePerson;
 import com.dicka.springjunctiontable.repository.PersonRepository;
@@ -56,6 +57,38 @@ public class PersonService {
 
         return new ResponseDataPerson(person, skills);
     }
+
+    /** using regex delimiter comma **/
+    public ResponsePerson createPersonWithSplitRegexComma(RequestRegex requestRegex){
+        String getData = "";
+        List<Skill> skills = new ArrayList<>();
+        String[] splitData = requestRegex.getData()
+                .split("\\,");
+
+        Person person = null;
+
+        for (String datas : splitData){
+            person = new Person();
+            getData = datas;
+            System.out.println("DATA INPUT : "
+                    +splitData[0]+" DAN "
+                    +splitData[1]+" DAN "
+                    +splitData[2]);
+        }
+
+        person.setEmail(splitData[0]);
+        person.setNama(splitData[1]);
+        person.setPhone(splitData[2]);
+
+        personRepository.save(person);
+
+        return new ResponsePerson(
+                "success",
+                "201",
+                person
+        );
+    }
+
 
     /** create person **/
     public ResponsePerson createPerson(RequestPerson requestPerson){
