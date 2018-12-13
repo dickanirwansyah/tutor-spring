@@ -1,11 +1,14 @@
 package com.dicka.springjunctiontable.controller;
 
+import com.dicka.springjunctiontable.entity.Person;
 import com.dicka.springjunctiontable.model.RequestPerson;
 import com.dicka.springjunctiontable.model.ResponseDataPerson;
 import com.dicka.springjunctiontable.model.ResponsePerson;
 import com.dicka.springjunctiontable.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api")
@@ -22,6 +25,11 @@ public class PersonController {
     @PostMapping(value = "/person-create")
     public ResponsePerson createPerson(@RequestBody RequestPerson requestPerson){
         return personService.createPerson(requestPerson);
+    }
+
+    @GetMapping(value = "/person-list")
+    public List<Person> personList(){
+        return personService.listPerson();
     }
 
     /** get person id by email **/

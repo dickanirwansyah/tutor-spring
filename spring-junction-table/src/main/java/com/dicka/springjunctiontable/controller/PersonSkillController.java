@@ -1,9 +1,7 @@
 package com.dicka.springjunctiontable.controller;
 
-import com.dicka.springjunctiontable.entity.PersonSkill;
 import com.dicka.springjunctiontable.model.RequestPersonSkill;
 import com.dicka.springjunctiontable.service.PersonSkillService;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
