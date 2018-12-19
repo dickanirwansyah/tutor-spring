@@ -1,0 +1,16 @@
+#konfigurasi auth-cloud-oauth2-server
+spring:
+   application:
+      name: auth-cloud-oauth2-server
+server:
+   port: ${PORT:9999}
+
+#check users scopes
+check-users-scopes: true
+   
+#konfigurasi fething config server
+---
+spring:
+   cloud:
+      config:
+         uri: http://localhost:8888

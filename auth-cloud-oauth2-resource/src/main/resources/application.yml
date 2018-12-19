@@ -1,0 +1,17 @@
+#konfigurasi auth-cloud-oauth2-resource
+spring:
+  application:
+    name: auth-cloud-oauth2-resource
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: -----BEGIN PUBLIC KEY-----
+                   MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoJBrCV2yDhK0aG8o3Qir
+                   17z1d9hl8bUlAe5EmpLGSRqEqFCng1YLGRWsWsrq+EUOApw6/5wfh+WRMJYdNjZ1
+                   rwhz1jvT1ql8YrrfyBEhEhcvgxaiz51YLsTYDwstrL4eCIfZQ8dGso+hpRm2kKVp
+                   FNCc1U6IoMG4DaHZ+ufbJu5ztgzb0X8PqdBCIl57+iOe/FsOJW6034i0HbaZc2Sm
+                   VpRRqd4Tx08C540IKn7e6AbarJXW8oEeXLP6l0McA4GIaE9UbTW3qw/ivhqKbc5I
+                   jC+d3hIzWtrYHpag6008dklYgfmQUYhxtmkdS2rmYVG3F9vtgEd9l3rudbFVZvKg
+                   AwIDAQAB
+                   -----END PUBLIC KEY-----

@@ -1,0 +1,21 @@
+#konfigurasi auth-cloud-oauth2-config
+server:
+   port: 8888
+spring:
+   application:
+      name: auth-cloud-oauth2-config
+
+---
+spring:
+   profiles:
+      include: native
+   cloud:
+      config:
+         server:
+            native:
+               search-locations: classpath:/another-config
+#konfigurasi eureka
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka/
