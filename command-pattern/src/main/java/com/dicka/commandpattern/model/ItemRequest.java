@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ItemRequest implements ServiceRequest{
 
+	private Long itemId;
 	private String itemName;
 	private double itemPrice;
 	
