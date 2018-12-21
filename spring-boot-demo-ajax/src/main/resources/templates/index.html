@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>DEMO API CALL USING AJAX</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app-list.js"></script>
+</head>
+<body>
+
+    <!--postdiv-->
+    <div id="postResultDiv" align="center"></div>
+    <!--postdiv-->
+
+    <div class="container">
+        <div class="container-fluid">
+            <h3>Api Call Using AJAX</h3>
+            <div class="page-header">
+                <form class="form-horizontal" id="myForm">
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Id book:</label>
+                        <div class="col-lg-5">
+                            <input type="text" class="form-control" name="bookId" id="bookId" placeholder="bookId"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Name:</label>
+                        <div class="col-lg-5">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="name"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Stock:</label>
+                        <div class="col-lg-5">
+                            <input type="number" class="form-control" name="stock" id="stock" placeholder="stock"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Author:</label>
+                        <div class="col-lg-5">
+                            <input type="text" class="form-control" name="author" id="author" placeholder="Author"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">
+                            Save
+                        </button>
+                    </div>
+                </form>
+                <div class="col-sm-7">
+                <button type="button" id="getAllBooks" class="btn btn-block btn-primary">
+                    List Book
+                </button>
+                <div id="getResultDiv" style="padding: 20px 10px 20px 50px">
+                    <ul class="list-group"></ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
