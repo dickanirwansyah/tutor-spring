@@ -1,0 +1,1 @@
+select m.nama, m.nama from medsos m, pengguna_medsos pm  where  pm.medsos_id=m.medsos_id and pm.email='dickanirwansyah@gmail.com'
