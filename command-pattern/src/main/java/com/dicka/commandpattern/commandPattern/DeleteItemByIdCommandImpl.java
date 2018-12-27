@@ -18,7 +18,7 @@ public class DeleteItemByIdCommandImpl extends AbstractCommand<Item, ItemRequest
 
     @Override
     public Item doExecute(ItemRequest request) {
-        deleteItem(request.getItemId());
+        deleteItem(request.getId());
         return new Item();
     }
 

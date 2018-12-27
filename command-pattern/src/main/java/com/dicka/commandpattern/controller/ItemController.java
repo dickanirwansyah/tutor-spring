@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/item")
+@CrossOrigin(origins = {"*"})
 public class ItemController {
 
 
@@ -32,11 +33,23 @@ public class ItemController {
 	public Item deleteById(@PathVariable Long itemId){
 		ItemRequest itemRequest = ItemRequest
 				.builder()
-				.itemId(itemId)
+				.id(itemId)
 				.build();
 
 		return serviceExecutor
 				.execute(DeleteItemByIdCommand.class, itemRequest);
+	}
+
+	/** find item byId **/
+	@GetMapping(value = "/find")
+	public Item findById(@RequestParam("itemId") Long itemId){
+		ItemRequest itemRequest = ItemRequest
+				.builder()
+				.id(itemId)
+				.build();
+
+		return serviceExecutor
+				.execute(FindItemIdCommand.class, itemRequest);
 	}
 
 
@@ -46,8 +59,8 @@ public class ItemController {
 	public Item createItem(@RequestBody ItemRequest request){
 		ItemRequest itemRequest = ItemRequest
 				.builder()
-				.itemName(request.getItemName())
-				.itemPrice(request.getItemPrice())
+				.name(request.getName())
+				.price(request.getPrice())
 				.build();
 		
 		return serviceExecutor
@@ -70,9 +83,9 @@ public class ItemController {
 						   @RequestBody ItemRequest request){
 		ItemRequest itemRequest = ItemRequest
 				.builder()
-				.itemId(itemId)
-				.itemName(request.getItemName())
-				.itemPrice(request.getItemPrice())
+				.id(itemId)
+				.name(request.getName())
+				.price(request.getPrice())
 				.build();
 
 		return serviceExecutor
@@ -84,8 +97,8 @@ public class ItemController {
 	public Item updateItem(@RequestBody ItemRequest request){
 		ItemRequest itemRequest = ItemRequest
 				.builder()
-				.itemName(request.getItemName())
-				.itemPrice(request.getItemPrice())
+				.name(request.getName())
+				.price(request.getPrice())
 				.build();
 		
 		return serviceExecutor

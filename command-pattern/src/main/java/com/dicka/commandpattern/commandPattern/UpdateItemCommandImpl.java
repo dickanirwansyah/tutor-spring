@@ -23,16 +23,16 @@ public class UpdateItemCommandImpl extends AbstractCommand<Item, ItemRequest>
         Item item = findItem(request);
         if (item == null){
             throw new ResourceNotFoundException("" +
-                    "maaf item : "+request.getItemId()+" tidak ditemukan.");
+                    "maaf item : "+request.getId()+" tidak ditemukan.");
         }else {
-            item.setName(request.getItemName());
-            item.setPrice(request.getItemPrice());
+            item.setName(request.getName());
+            item.setPrice(request.getPrice());
             return itemRepository.save(item);
         }
     }
 
     private Item findItem(ItemRequest request){
-        Item item = itemRepository.findItemById(request.getItemId());
+        Item item = itemRepository.findItemById(request.getId());
         return item;
     }
 }

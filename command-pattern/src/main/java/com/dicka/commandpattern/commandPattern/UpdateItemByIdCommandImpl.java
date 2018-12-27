@@ -17,12 +17,12 @@ public class UpdateItemByIdCommandImpl extends AbstractCommand<Item, ItemRequest
 	
 	@Override
 	public Item doExecute(ItemRequest request) {
-		return itemRepository.findById(request.getItemId())
+		return itemRepository.findById(request.getId())
 				.map(currentData -> {
-					currentData.setName(request.getItemName());
-					currentData.setPrice(request.getItemPrice());
+					currentData.setName(request.getName());
+					currentData.setPrice(request.getPrice());
 					return itemRepository.save(currentData);
 				}).orElseThrow(() -> new ResourceNotFoundException("" +
-						"maaf id item : "+request.getItemId()+ " tidak ada"));
+						"maaf id item : "+request.getId()+ " tidak ada"));
 	}
 }

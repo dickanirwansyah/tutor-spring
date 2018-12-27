@@ -17,7 +17,7 @@ public class CreateNewItemCommandImpl extends AbstractCommand<Item, ItemRequest>
 	
 	@Override
 	public Item doExecute(ItemRequest request) {
-		Item item = newItem(request.getItemName(), request.getItemPrice());
+		Item item = newItem(request.getName(), request.getPrice());
 		return itemRepository.save(item);
 	}
 
