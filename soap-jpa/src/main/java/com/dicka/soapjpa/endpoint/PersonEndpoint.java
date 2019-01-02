@@ -14,6 +14,8 @@ import com.dicka.soapjpa.entity.Person;
 import com.dicka.soapjpa.service.PersonService;
 import com.myhost.soap_jpa.person_ws.AddRequestPerson;
 import com.myhost.soap_jpa.person_ws.AddResponsePerson;
+import com.myhost.soap_jpa.person_ws.DeleteRequestPerson;
+import com.myhost.soap_jpa.person_ws.DeleteResponsePerson;
 import com.myhost.soap_jpa.person_ws.GetRequestPersonAll;
 import com.myhost.soap_jpa.person_ws.GetRequestPersonById;
 import com.myhost.soap_jpa.person_ws.GetResponsePersonAll;
@@ -107,4 +109,25 @@ public class PersonEndpoint {
 		responsePerson.setServiceStatus(serviceStatus);
 		return responsePerson;
 	}
+
+	@PayloadRoot(namespace = URI_NAMESPACE, localPart = "deleteRequestPerson")
+	@ResponsePayload
+	public DeleteResponsePerson delete(@RequestPayload DeleteRequestPerson request){
+		DeleteResponsePerson responsePerson = new DeleteResponsePerson();
+		ServiceStatus serviceStatus = new ServiceStatus();
+		Person person = personService.getPersonById(request.getPersonId());
+		
+		if(person == null){
+			serviceStatus.setCode("404");
+			serviceStatus.setMessage("not found");
+		}else{
+			personService.deletePerson(person);
+			serviceStatus.setCode("200");
+			serviceStatus.setMessage("success");
+		}
+		
+		responsePerson.setServiceStatus(serviceStatus);
+		return responsePerson;
+	}
+
 }
