@@ -1,0 +1,9 @@
+# Docker compose build and run
+version: '2'
+services:
+   demo-jpa-eureka:
+      build:
+         context: .
+         dockerfile: Dockerfile
+      ports:
+         - "8761:8761"

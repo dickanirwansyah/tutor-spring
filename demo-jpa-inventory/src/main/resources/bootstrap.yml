@@ -1,0 +1,9 @@
+#konfigurasi
+spring:
+   application:
+      name: demo-jpa-inventory
+---
+spring:
+   cloud:
+      config:
+         uri: http://localhost:8888/

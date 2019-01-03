@@ -1,0 +1,17 @@
+#konfigurasi terpusat
+server:
+   port: ${PORT:8888}
+spring:
+   application:
+      name: demo-jpa-config
+   profiles:
+      include: native
+   cloud:
+      config:
+         server:
+            native:
+               search-locations: classpath:/another-config
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/

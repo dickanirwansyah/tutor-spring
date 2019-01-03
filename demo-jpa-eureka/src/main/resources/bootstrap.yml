@@ -1,0 +1,19 @@
+#konfigurasi eureka
+server:
+   port: ${PORT:8761}
+spring:
+   application:
+      name: demo-jpa-eureka
+eureka:
+   instance:
+      hostname: localhost
+---
+eureka:
+   instance:
+      client:
+         registerWithEureka: false
+         fethRegistry: false
+         serviceUrl:
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      lease-renewal-interval-in-seconds: 3
+      prefer-ip-address: true
