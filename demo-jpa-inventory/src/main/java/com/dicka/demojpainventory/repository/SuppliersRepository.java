@@ -6,4 +6,6 @@ import com.dicka.demojpainventory.entity.Suppliers;
 
 public interface SuppliersRepository extends JpaRepository<Suppliers, Integer>{
 
+	Suppliers findSuppliersById(Integer id);
+	
 }

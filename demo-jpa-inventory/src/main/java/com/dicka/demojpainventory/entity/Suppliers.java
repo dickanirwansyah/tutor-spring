@@ -35,7 +35,7 @@ public class Suppliers implements Serializable{
 	private String address;
 	private String email;
 	
-	@OneToMany(mappedBy = "suppliers", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "suppliers")
 	@JsonIgnore
 	private Set<Inventory> inventorys = new HashSet<Inventory>();
 }
