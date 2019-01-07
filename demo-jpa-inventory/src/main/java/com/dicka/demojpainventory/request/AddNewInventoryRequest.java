@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 public class AddNewInventoryRequest implements ServiceRequest{
 
-	@NotBlank(message = "please enter inventory Id.")
+	//@NotBlank(message = "please enter inventory Id.")
 	private String inventoryId;
 	
 	@NotNull(message = "please enter stock.")

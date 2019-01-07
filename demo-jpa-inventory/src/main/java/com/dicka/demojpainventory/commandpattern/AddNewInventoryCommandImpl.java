@@ -6,6 +6,7 @@ import com.dicka.demojpainventory.exception.ResourceNotFoundException;
 import com.dicka.demojpainventory.repository.InventoryRepository;
 import com.dicka.demojpainventory.repository.SuppliersRepository;
 import com.dicka.demojpainventory.request.AddNewInventoryRequest;
+import com.dicka.demojpainventory.util.UtilsId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -36,7 +37,7 @@ implements AddNewInventoryCommand{
 
                     Inventory inventory = Inventory
                             .builder()
-                            .inventoryId(request.getInventoryId())
+                            .inventoryId(UtilsId.getUniqueID())
                             .stock(request.getStock())
                             .price(request.getPrice())
                             .suppliers(suppliers)
