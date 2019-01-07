@@ -1,0 +1,19 @@
+#konfigurasi
+spring:
+  application:
+    name: online-banking-example
+---
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_banking
+    username: root
+    password: root
+---
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+---
+spring:
+  jpa:
+    show-sql: true

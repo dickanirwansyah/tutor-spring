@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragment/header :: common-header"/>
+<body roleId="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <head th:replace="fragment/header :: navbar"/>
+
+    <div class="container">
+        <div class="col-md-6">
+            <h2 class="title">My Profile</h2>
+            <hr/>
+            <form method="post" th:action="@{/user/profile}">
+                <input type="hidden" name="id" th:value="${user.userId}"/>
+
+                <div class="form-group">
+                    <label>Firstname</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-user fa" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control"
+                                   roleId="username" id="firstname"
+                                   placeholder="Enter your username"
+                                   th:value="${user.firstname}"
+                                   name="firstname"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Lastname</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-user fa" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control"
+                                    roleId="lastname" id="lastname"
+                                    placeholder="Enter your lastname"
+                                   th:value="${user.lastname}"
+                                    name="lastname"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <span class="bg-danger pull-right"
+                          th:if="${usernameExists}">Username already Exists</span>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-user fa" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control"
+                            roleId="username" name="username" id="username"
+                            placeholder="Enter your username"
+                                   th:value="${user.username}" readonly=""/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-phone fa" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control"
+                            roleId="phone" placeholder="Enter your phone"
+                            id="phone" name="phone" th:value="${user.phone}"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <span class="bg-danger pull-right"
+                          th:if="${emailExists}">Email already Exists</span>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-user fa" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control"
+                                   roleId="email" placeholder="Enter your email"
+                                   id="email" name="email"
+                                   th:value="${user.email}" readonly="readonly"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Change Profile
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <div class="panel-heading">
+                <div class="panel-title text-center">
+                    <h1 class="title">Your Account Information</h1>
+                    <hr/>
+                </div>
+                <table class="responstable">
+                    <tr>
+                        <th>Primary Account Number</th>
+                        <th>Savings Account Number</th>
+                    </tr>
+                    <tr>
+                        <td data-th-text="${user.primaryAccount.accountNumber}">..</td>
+                        <td data-th-text="${user.savingsAccount.accountNumber}">..</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+<div th:replace="fragment/header :: body-bottom-scripts"/>
+</body>
+</html>
