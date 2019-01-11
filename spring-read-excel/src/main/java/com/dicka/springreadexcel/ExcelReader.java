@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 public class ExcelReader {
 
-    /** declar path location file **/
+    /** declare path location file **/
     public final static String LOCATION_XLSX_FILE = "./example.xlsx";
     public final static String LOCATION_XLS_FILE = "./example.xls";
 

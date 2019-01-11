@@ -1,4 +1,6 @@
 #konfigurasi
+server:
+  port: 9999
 spring:
   application:
     name: online-banking-example
