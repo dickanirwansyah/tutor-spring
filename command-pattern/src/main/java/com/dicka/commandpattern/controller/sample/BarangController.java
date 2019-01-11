@@ -15,6 +15,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping(value = "/api/v1/barang")
+@CrossOrigin(origins = {"*"})
 public class BarangController {
 
     @Autowired
