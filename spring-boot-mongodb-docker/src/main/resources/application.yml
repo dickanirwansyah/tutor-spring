@@ -1,0 +1,27 @@
+spring.data.mongodb.uri: mongodb://mongo:27000/test
+#spring.data.mongodb.host: localhost
+---
+#spring.data.mongodb.port: 27017
+---
+#spring.data.mongodb.database: spring-mongodb
+
+server:
+  port: 8080
+application:
+  name: this is spring-boot-mongodb-docker example
+  message: application is start
+
+---
+spring:
+    profiles: development
+server:
+    port: 9090
+application:
+    message: I am in DEV ENV
+---
+spring:
+    profiles: production
+server:
+    port: 10010
+application:
+message: I am in PROD ENV
