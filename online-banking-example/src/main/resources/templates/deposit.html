@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragment/header :: common-header"/>
+<body roleId="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <head th:replace="fragment/header :: navbar"/>
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-6">
+                <form th:action="@{/account/deposit}" method="POST">
+                    <div class="form-group">
+                        <label>1. Please select account you would like to deposit</label>
+                        <select class="form-control"
+                                th:value="${accountType}"
+                                name="accountType"
+                                id="accountType"
+                                required="required">
+                            <option disabled="disabled"
+                                    selected="selected">--select your account--</option>
+                            <option>Primary</option>
+                            <option>Savings</option>
+                        </select>
+                        <br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label>2. Please specify the amount you would like to deposit</label>
+                        <span class="input-group-addon">Amount $/Rp</span>
+                        <input type="text" th:value="${amount}" name="amount" id="amount"
+                        class="form-control"/>
+                    </div>
+                    <input type="hidden"
+                           name="${_csrf.parameterName}"
+                           value="${_csrf.token}"/>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">
+                        Deposit
+                    </button>
+                </form>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+
+    <div th:replace="fragment/header :: body-bottom-scripts"/>
+
+</body>
+</html>

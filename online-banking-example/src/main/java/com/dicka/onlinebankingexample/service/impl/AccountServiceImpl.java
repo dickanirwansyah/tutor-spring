@@ -19,22 +19,19 @@ import java.util.Date;
 public class AccountServiceImpl implements AccountService {
 
     private static int staticAccountNumber = 11223145;
-    private final PrimaryAccountRepository primaryAccountRepository;
-    private final SavingsAccountRepository savingsAccountRepository;
-    private final UserService userService;
-    private final TransactionService transactionService;
 
     @Autowired
-    public AccountServiceImpl(PrimaryAccountRepository primaryAccountRepository,
-                              SavingsAccountRepository savingsAccountRepository,
-                              UserService userService,
-                              TransactionService transactionService){
+    private PrimaryAccountRepository primaryAccountRepository;
 
-        this.primaryAccountRepository = primaryAccountRepository;
-        this.savingsAccountRepository = savingsAccountRepository;
-        this.userService = userService;
-        this.transactionService = transactionService;
-    }
+    @Autowired
+    private SavingsAccountRepository savingsAccountRepository;
+
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    private TransactionService transactionService;
+
 
     @Override
     public PrimaryAccount createPrimaryAccount() {
@@ -87,6 +84,27 @@ public class AccountServiceImpl implements AccountService {
                     .availableBalance(primaryAccount.getAccountBalance())
                     .primaryAccount(primaryAccount)
                     .build();
+
+            transactionService.savePrimaryDepositTransaction(primaryTransaction);
+        }else if(accountType.equalsIgnoreCase("Savings")){
+            SavingsAccount savingsAccount = user.getSavingsAccount();
+            savingsAccount.setAccountBalance(savingsAccount.getAccountBalance()
+            .add(new BigDecimal(amount)));
+            savingsAccountRepository.save(savingsAccount);
+
+            Date date = new Date();
+            SavingsTransaction savingsTransaction = SavingsTransaction
+                    .builder()
+                    .date(date)
+                    .description("Deposit to Savings Account")
+                    .type("Account")
+                    .status("Finished")
+                    .amount(amount)
+                    .availableBalance(savingsAccount.getAccountBalance())
+                    .savingsAccount(savingsAccount)
+                    .build();
+
+            transactionService.saveSavingsDepositTransaction(savingsTransaction);
         }
     }
 
@@ -112,8 +130,8 @@ public class AccountServiceImpl implements AccountService {
                     .availableBalance(primaryAccount.getAccountBalance())
                     .primaryAccount(primaryAccount)
                     .build();
-
             transactionService.savePrimaryWithDrawTransaction(primaryTransaction);
+
         }else if (accountType.equalsIgnoreCase("Savings")){
             SavingsAccount savingsAccount = user.getSavingsAccount();
             savingsAccount.setAccountBalance(savingsAccount.getAccountBalance()

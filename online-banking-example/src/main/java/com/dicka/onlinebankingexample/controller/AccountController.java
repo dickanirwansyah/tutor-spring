@@ -1,36 +1,92 @@
 package com.dicka.onlinebankingexample.controller;
 
+import com.dicka.onlinebankingexample.entity.*;
 import com.dicka.onlinebankingexample.service.AccountService;
 import com.dicka.onlinebankingexample.service.TransactionService;
 import com.dicka.onlinebankingexample.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.security.Principal;
+import java.util.List;
 
 @Controller
 @RequestMapping(value = "/account")
 public class AccountController {
 
-    private final AccountService accountService;
-    private final UserService userService;
-    private final TransactionService transactionService;
+    @Autowired
+    private AccountService accountService;
 
     @Autowired
-    public AccountController(AccountService accountService,
-                             UserService userService,
-                             TransactionService transactionService){
+    private UserService userService;
 
-        this.accountService = accountService;
-        this.userService = userService;
-        this.transactionService = transactionService;
+    @Autowired
+    private TransactionService transactionService;
+
+
+    @RequestMapping(value = "/primaryAccount", method = RequestMethod.GET)
+    public String primaryAccount(Model model, Principal principal){
+
+        List<PrimaryTransaction> primaryTransactionList = transactionService
+                .findPrimaryTransactionList(principal.getName());
+
+        User user = userService.findByUsername(principal.getName());
+        PrimaryAccount primaryAccount = user.getPrimaryAccount();
+
+        model.addAttribute("primaryAccount", primaryAccount);
+        model.addAttribute("primaryTransactionList", primaryTransactionList);
+
+        return "primaryAccount";
     }
 
+    @RequestMapping(value = "/savingsAccount", method = RequestMethod.GET)
+    public String savingsAccount(Model model, Principal principal){
 
-    @RequestMapping(value = "/primaryAccount")
-    public String primaryAccount(Model model, Principal principal){
-        return "primaryAccount";
+        List<SavingsTransaction> savingsTransactionList = transactionService
+                .findSavingsTransactionList(principal.getName());
+
+        User user = userService.findByUsername(principal.getName());
+        SavingsAccount savingsAccount = user.getSavingsAccount();
+
+        model.addAttribute("savingsAccount", savingsAccount);
+        model.addAttribute("savingsTransactionList", savingsTransactionList);
+
+        return "savingsAccount";
+    }
+
+    @RequestMapping(value = "/deposit", method = RequestMethod.GET)
+    public String deposit(Model model){
+        model.addAttribute("accountType", "");
+        model.addAttribute("amount", "");
+        return "deposit";
+    }
+
+    @RequestMapping(value = "/deposit", method = RequestMethod.POST)
+    public String actionDeposit(@ModelAttribute("amount") String amount,
+                                @ModelAttribute("accountType") String accountType,
+                                Principal principal){
+
+        accountService.deposit(accountType, Double.parseDouble(amount), principal);
+        return "redirect:/userFront";
+    }
+
+    @RequestMapping(value = "/withdraw", method = RequestMethod.GET)
+    public String withdraw(Model model){
+        model.addAttribute("accountType", "");
+        model.addAttribute("amount", "");
+        return "withdraw";
+    }
+
+    @RequestMapping(value = "/withdraw", method = RequestMethod.POST)
+    public String actionWithDraw(@ModelAttribute("amount") String amount,
+                                 @ModelAttribute("accountType") String accountType,
+                                 Principal principal){
+
+        accountService.withdraw(accountType, Double.parseDouble(amount), principal);
+        return "redirect:/userFront";
     }
 }
