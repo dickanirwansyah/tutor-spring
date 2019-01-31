@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/upload.js"></script>
+    <title>upload employee</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <h1>Example Upload</h1>
+            <hr/>
+            <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+                <div class="form-group">
+                    <label>Description :</label>
+                    <input type="text" class="form-control" name="description" id="description"/>
+                </div>
+                <div class="form-group">
+                    <label>Your files :</label>
+                    <br/>
+                    File upload (1) <br/><input type="file" class="form-control" name="files"/>
+                    File upload (2) <br/><input type="file" class="form-control" name="files"/>
+                    File upload (3) <br/><input type="file" class="form-control" name="files"/>
+                </div>
+                <div class="form-group">
+                    <input type="submit" id="submitButton" value="Upload Files"/>
+                </div>
+            </form>
+            <h2>Upload Results</h2>
+            <hr/>
+            <span id="result"></span>
+        </div>
+    </div>
+</body>
+</html>
