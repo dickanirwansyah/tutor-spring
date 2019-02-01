@@ -43,7 +43,8 @@ public class FileStorageService {
 
             //copy file to target location (replacing)
             Path targetLocation = this.fileStorageLocation.resolve(fileName);
-            Files.copy(file.getInputStream(), targetLocation, StandardCopyOption.REPLACE_EXISTING);
+            Files.copy(file.getInputStream(), targetLocation,
+                    StandardCopyOption.REPLACE_EXISTING);
             return fileName;
         }catch (Exception e){
             throw new FileStorageException("sorry could not upload or store file "+fileName+" " +

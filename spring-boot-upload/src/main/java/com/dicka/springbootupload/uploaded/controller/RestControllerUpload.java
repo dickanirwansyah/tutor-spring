@@ -1,7 +1,8 @@
 package com.dicka.springbootupload.uploaded.controller;
 
 import com.dicka.springbootupload.uploaded.model.UploadResponse;
-import com.dicka.springbootupload.uploaded.service.FileStorageService;
+//import com.dicka.springbootupload.uploaded.service.FileStorageService;
+import com.dicka.springbootupload.uploads.service.FileStorageService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,16 +16,23 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/api/v1/upload")
 public class RestControllerUpload {
 
+    //@Autowired
+    //private FileStorageService fileStorageService;
+
     @Autowired
-    private FileStorageService fileStorageService;
+    private FileStorageService storageService;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RestControllerUpload.class);
 
+    /**
     //Download file
     @GetMapping(value = "/downloadFile/{fileName:.+}")
     public ResponseEntity<Resource> downloadFile(@PathVariable("fileName")String fileName,
@@ -50,9 +58,32 @@ public class RestControllerUpload {
                 .body(resource);
     }
 
+    **/
+    /**
+    @PostMapping(value = "/multiple-upload")
+    public List<UploadResponse> multipleUpload(@RequestParam("files")MultipartFile[] files){
+        return Arrays.asList(files)
+                .stream()
+                .map(file -> singleUpload(file))
+                .collect(Collectors.toList());
+    }
+     **/
+
+    /**
+    @PostMapping(value = "/multiple-upload")
+    public List<UploadResponse> multipleUpload(@RequestParam("files")MultipartFile[] files){
+        // files is array data
+        return Arrays.asList(files)
+                .stream()
+                .map(file -> singleUpload(file))
+                .collect(Collectors.toList());
+    }
+    **/
+
     @PostMapping(value = "/single-upload")
-    public UploadResponse singleUpload(@RequestParam("file")MultipartFile file){
-        String fileName = fileStorageService.storeFile(file);
+    public UploadResponse singleUpload(@RequestParam("file")MultipartFile file) throws IOException{
+        //String fileName = fileStorageService.storeFile(file);
+        String fileName = storageService.storeFile(file);
         System.out.print("---fileName--- ::"+"--("+fileName+")--");
 
         String fileDownloadUri = ServletUriComponentsBuilder
