@@ -1,6 +1,7 @@
 package com.dicka.springbootupload.uploads.service;
 
 import com.dicka.springbootupload.uploaded.model.UploadResponse;
+import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
@@ -12,7 +13,7 @@ public interface FileStorageService {
     public String storeFile(MultipartFile file) throws IOException;
 
     /** resource is download file **/
-    public String resourceFile(String fileName);
+    public Resource resourceFile(String fileName);
 
     /** multiple upload file
     public List<UploadResponse> multipleStoreFile(MultipartFile[] files);

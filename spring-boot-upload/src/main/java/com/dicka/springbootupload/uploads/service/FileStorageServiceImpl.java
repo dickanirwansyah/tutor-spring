@@ -7,6 +7,8 @@ import com.dicka.springbootupload.uploads.utilies.ConstantMessages;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
@@ -80,7 +82,18 @@ public class FileStorageServiceImpl implements FileStorageService {
     }
 
     @Override
-    public String resourceFile(String fileName) {
-        return null;
+    public Resource resourceFile(String fileName) {
+        try{
+            Path filePath = this.fileStorageLocation.resolve(fileName)
+                    .normalize();
+            Resource resource = new UrlResource(filePath.toUri());
+            if (resource.exists()){
+                return resource;
+            }else{
+                throw new FileStorageException(ConstantMessages.FILE_NOT_FOUND+fileName);
+            }
+        }catch (Exception ex){
+            throw new FileStorageException(ConstantMessages.FILE_NOT_FOUND+fileName, ex);
+        }
     }
 }

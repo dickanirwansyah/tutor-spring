@@ -12,27 +12,54 @@
 <body>
     <div class="container">
         <div class="container-fluid">
-            <h1>Example Upload</h1>
+            <div class="page-header">
+                <h3 th:utext="${title}"></h3>
+                <div class="alert alert-danger"><p>sorry.. upload file failed !</p></div>
+                <div class="alert alert-success"><p>upload file successfully !</p></div>
+                <hr/>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" name="name" id="name"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Designation</label>
+                        <input type="text" class="form-control" name="designation" id="designation"/>
+                    </div>
+                    <form id="fileUploadForm">
+                        <div class="form-group">
+                            <label>Upload Image</label>
+                            <input type="file" class="form-control" name="file"/>
+                        </div>
+                    </form>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary"
+                            id="submitButton">Save</button>
+                </div>
+            </div>
             <hr/>
-            <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
-                <div class="form-group">
-                    <label>Description :</label>
-                    <input type="text" class="form-control" name="description" id="description"/>
-                </div>
-                <div class="form-group">
-                    <label>Your files :</label>
-                    <br/>
-                    File upload (1) <br/><input type="file" class="form-control" name="files"/>
-                    File upload (2) <br/><input type="file" class="form-control" name="files"/>
-                    File upload (3) <br/><input type="file" class="form-control" name="files"/>
-                </div>
-                <div class="form-group">
-                    <input type="submit" id="submitButton" value="Upload Files"/>
-                </div>
-            </form>
-            <h2>Upload Results</h2>
-            <hr/>
-            <span id="result"></span>
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Designation</th>
+                            <th>Images</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Designation</th>
+                            <th>Images</th>
+                            <th>Action</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </div>
     </div>
 </body>
