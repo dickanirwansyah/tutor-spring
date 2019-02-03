@@ -12,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.security.Principal;
 import java.util.List;
@@ -69,8 +70,33 @@ public class TransferController {
     }
 
     /** edit recipient **/
+    @RequestMapping(value = "/recipient/edit")
+    public String editRecipient(@RequestParam(value = "recipientName")String recipientName,
+                                Model model, Principal principal){
+
+        Recipient recipient = transactionService.findRecipientByName(recipientName);
+        List<Recipient> recipientList = transactionService.findRecipientList(principal);
+
+        model.addAttribute("recipientList", recipientList);
+        model.addAttribute("recipient", recipient);
+
+        return "recipient";
+    }
 
     /** delete recipient **/
+    @RequestMapping(value = "/recipient/delete")
+    public String deleteRecipient(@RequestParam(value = "recipientName") String recipientName,
+                                  Model model, Principal principal){
+
+        transactionService.deleteRecipientByName(recipientName);
+        List<Recipient> recipientList = transactionService.findRecipientList(principal);
+
+        Recipient recipient = new Recipient();
+        model.addAttribute("recipient", recipient);
+        model.addAttribute("recipientList", recipientList);
+
+        return "recipient";
+    }
 
     /** transfer to someone else **/
     @RequestMapping(value = "/toSomeoneElse", method = RequestMethod.GET)
