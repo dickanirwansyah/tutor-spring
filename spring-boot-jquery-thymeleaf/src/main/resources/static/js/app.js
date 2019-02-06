@@ -95,7 +95,7 @@ $(document).ready(function(){
             contentType: 'application/json',
             success: function(result){
                 console.log('success : '+result);
-                 $("#modalDialog").modal().hide();
+                 $("#modalDialog").modal('hide');
                 //$(".alert-success").show();
                 //$(".alert-danger").hide();
                 getListCredit();
@@ -124,7 +124,34 @@ $(document).on('click', '.btnEdit', function(e){
             $("#edit-creditId").val(result.creditId);
             $("#edit-name").val(result.name);
             $("#active option[value='"+result.info.infoId+"']").prop('selected', true);
+            $("#createdAt").val(result.createdAt);
             $("#modalCreditUpdate").modal('show');
+        }
+    });
+});
+
+$(document).on('click', '.btnEditAction', function(e){
+    console.log('action edit');
+    var infoId = $(".select-dropdown").val();
+    var creditId = $("#edit-creditId").val();
+
+    var jsonData = {
+        name: $("#edit-name").val(),
+        createdAt: $("#createdAt").val()
+    }
+
+    $.ajax({
+        type: 'PUT',
+        url: '/api/v1/credit/info/'+infoId+'/credit/'+creditId+'/update',
+        data: JSON.stringify(jsonData),
+        contentType: 'application/json',
+        success: function(result){
+            $("#modalCreditUpdate").modal('hide');
+            console.log("data : "+result);
+            getListCredit();
+        },
+        error: function(err){
+            console.log("error : "+err)
         }
     });
 });

@@ -72,7 +72,7 @@
                             <!--ID-->
                             <div class="form-group">
                                 <label>ID</label>
-                                <input type="text" class="form-control" name="creditId" id="edit-creditId" required="required"/>
+                                <input type="text" readonly="readonly" class="form-control" name="creditId" id="edit-creditId" required="required"/>
                             </div>
                             <!--NAME-->
                             <div class="form-group">
@@ -86,9 +86,14 @@
                                     <option value="">Pilih Salah Satu</option>
                                 </select>
                             </div>
+                            <!--created at-->
+                            <div class="form-group">
+                                <label>CreatedAt</label>
+                                <input type="text" class="form-control" id="createdAt" name="createdAt" readonly="readonly"/>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-success">
+                            <button type="button" class="btn btn-success btnEditAction">
                                 <span class="fa fa-fw fa-save"></span>
                                 Update
                             </button>
