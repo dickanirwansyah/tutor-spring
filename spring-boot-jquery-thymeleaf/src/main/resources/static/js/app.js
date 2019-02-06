@@ -15,7 +15,7 @@ function getListCredit(){
                     "<td>"+result[index].createdAt+"</td>"+
                     "<td>"+result[index].updatedAt+"</td>"+
                     "<td>"+result[index].info.name+"</td>"+
-                    "<td><button type='button' class='btn btn-primary'>"+
+                    "<td><button type='button' data-id='"+result[index].creditId+"' class='btn btn-primary btnEdit'>"+
                     "<span class='fa fa-fw fa-pencil'></span>Update</button></td>"+
                     "</tr>";
                     $(".table tbody").append(htmlIsFound);
@@ -50,6 +50,27 @@ function getListInfo(){
     });
 }
 
+//for edit select info
+function getListForSelectedInfo(){
+    $.ajax({
+        url: '/api/v1/info',
+        type: 'GET',
+        dataType: 'json',
+        async: true,
+        success: function(response){
+            console.log(response);
+            var selectOption = "";
+            $.each(response, function(key,value){
+                selectOption += '<option value='+response[key].infoId+'>'+response[key].name+'</option>';
+            });
+            $(".select-dropdown").append(selectOption);
+        },
+        error(jqXHR, textStatus, err){
+            alert("something happend with my code : "+err.error);
+        }
+    });
+}
+
 $(document).ready(function(){
     $(".alert-danger").hide();
     $(".alert-success").hide();
@@ -57,6 +78,8 @@ $(document).ready(function(){
     getListCredit();
     //list data info
     getListInfo();
+    //list for selected update
+    getListForSelectedInfo();
 
     $("#btnSave").on('click', function(){
         var infoId = $("#loadInfo").val();
@@ -78,11 +101,30 @@ $(document).ready(function(){
                 getListCredit();
             },
             error: function(err){
+                //error please check !
                 console.log('error ! something happens : '+err);
                 $(".alert-success").hide();
                 $(".alert-danger").show();
             }
         });
     });
+});
 
+$(document).on('click', '.btnEdit', function(e){
+    //alert('test button edit');
+    console.log('get data credit berdasarkan kode / id');
+    var linkCreditId = $(this).attr('data-id');
+
+    $.ajax({
+        type: 'GET',
+        url: '/api/v1/credit/'+linkCreditId,
+        success: function(result){
+            //alert("kode id : "+result.creditId)
+            console.log("data credit by id : "+result.creditId)
+            $("#edit-creditId").val(result.creditId);
+            $("#edit-name").val(result.name);
+            $("#active option[value='"+result.info.infoId+"']").prop('selected', true);
+            $("#modalCreditUpdate").modal('show');
+        }
+    });
 });

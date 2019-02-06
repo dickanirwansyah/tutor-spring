@@ -22,7 +22,7 @@
                 Add Data
             </button>
 
-            <!--modal-->
+            <!--modal insert credit-->
             <div class="modal fade" tabindex="-1" id="modalDialog">
                 <div class="modal-dialog" role="dialog">
                     <div class="modal-content" role="document">
@@ -57,7 +57,50 @@
                     </div>
                 </div>
             </div>
-            <!--modal-->
+            <!--modal insert credit-->
+
+            <!--modal update-->
+            <div class="modal fade" tabindex="-1" id="modalCreditUpdate">
+                <div class="modal-dialog" role="dialog">
+                    <div class="modal-content" role="content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span class="aria-hidden-true">Close</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!--ID-->
+                            <div class="form-group">
+                                <label>ID</label>
+                                <input type="text" class="form-control" name="creditId" id="edit-creditId" required="required"/>
+                            </div>
+                            <!--NAME-->
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" name="name" id="edit-name" required="required"/>
+                            </div>
+                            <!--SELECT INFO BY DEFAULT SELECTED FROM DATABASE -->
+                            <div class="form-group">
+                                <label>Info</label>
+                                <select class="form-control select-dropdown" id="active" name="info">
+                                    <option value="">Pilih Salah Satu</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success">
+                                <span class="fa fa-fw fa-save"></span>
+                                Update
+                            </button>
+                            <button type="button" data-dismiss="modal" class="btn btn-danger">
+                                <span class="fa fa-fw fa-refresh"></span>
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--modal update-->
 
             <hr/>
             <div class="alert alert-success">success created</div>

@@ -1,5 +1,6 @@
 package com.dicka.springbootjquerythymeleaf.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,6 +23,8 @@ public class Credit implements Serializable{
     private int creditId;
     private String name;
 
+    /** format waktu **/
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
