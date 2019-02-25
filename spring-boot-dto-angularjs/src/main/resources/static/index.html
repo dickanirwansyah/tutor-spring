@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Core System</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/usersController.js"></script>
+    <script src="js/usersService.js"></script>
+    <style>
+        body{
+ background-color: #efefef;
+
+}
+
+span.spacing{
+
+    margin-right: 10px;
+
+}
+
+input.custom-width{
+
+    width: 200px;
+
+}
+
+input.spacing{
+
+    margin-right: 5px;
+
+}
+    </style>
+</head>
+<body ng-app="demo">
+    <div ng-controller="usersController">
+    <h3>Example SpringBoot DTO (Data Transfer Object) & AngullarJS</h3>
+        <div class="row">
+            <label>User</label>
+            <input type="text" ng-model="usersDto.usersName" class="input-sm spacing"/>
+            <label>Skills</label>
+            <input type="text" ng-model="skills" ng-list
+                   class="input-sm custom-width spacing"
+                   placeholder="use comma to separate skills"/>
+            <button ng-click="saveUsers()"
+                    class="btn btn-sm btn-info">Save User</button>
+        </div>
+        <hr/>
+        <div class="row">
+            <p>{{allUsers | json}}</p>
+        </div>
+        <hr/>
+        <div class="row" ng-repeat="user in allUsers">
+            <div class="">
+                <h3>{{user.usersName}}</h3>
+                <span ng-repeat="skill in user.skillDtos"
+                      class="spacing">{{skill.skillName}}</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
