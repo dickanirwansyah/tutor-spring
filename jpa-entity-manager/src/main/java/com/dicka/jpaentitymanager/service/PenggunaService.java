@@ -10,4 +10,5 @@ public interface PenggunaService {
     List<Pengguna> findPenggunaByGoldarah(String goldarah);
     Pengguna createPengguna(Pengguna pengguna);
     Pengguna findByEmail(String email);
+    
 }
